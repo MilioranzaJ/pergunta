@@ -29,7 +29,7 @@ h1 {
     color: hotpink;
     position: absolute;
     left: 125px;
-    top: 40vh;
+    top: 35vh;
 }
 
 @media (min-width: 450px) {
@@ -49,6 +49,10 @@ h1 {
 
     #nao {
         left: 46vw;
+    }
+
+    h1 {
+        top: 40vh;
     }
 }
 
