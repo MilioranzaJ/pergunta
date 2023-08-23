@@ -1,0 +1,55 @@
+button {
+    padding: 1rem;
+    color: white;
+    background-color: hotpink;
+    border-radius: 10px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: deeppink;
+}
+
+#nao {
+    position: absolute;
+    left: 200px;
+    top: 50vh;
+    width: 5rem;
+}
+
+#sim {
+    position: absolute;
+    left: 100px;
+    top: 50vh;
+    width: 5rem;
+}
+
+h1 {
+    color: hotpink;
+    position: absolute;
+    left: 125px;
+    top: 40vh;
+}
+
+@media (min-width: 450px) {
+    #sim, h1 {
+        left: 40vw;
+    }
+
+    #nao {
+        left: 50vw;
+    }
+}
+
+@media (min-width: 900px) {
+    #sim, h1 {
+        left: 40vw;
+    }
+
+    #nao {
+        left: 46vw;
+    }
+}
+
+
